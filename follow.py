@@ -4,5 +4,5 @@ install_id=7389856192924976902 #Install ID
 device_id=7389854904419223045 #Device ID
 secuid='MS4wLjABAAAAr5U_HUg-SS9ieJv-ZayCTZIzRsVNjM9xnUfJg7JPNk_fW-R0xuL7OhobYy267-v-' #User SecUID
 uid=7065740413541712902 #User ID
-response=requests.get(f'http://104.248.228.75:8080/follow?install_id={install_id}&device_id={device_id}&uid={uid}&secuid={secuid}&cook={cookies}').text
+response=requests.get(f'http://104.248.228.75:8080/follow?install_id={install_id}&device_id={device_id}&uid={uid}&secuid={secuid}&cookies={cookies}').text
 print(response)
