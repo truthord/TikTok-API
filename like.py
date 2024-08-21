@@ -3,5 +3,5 @@ cookies='store-idc=maliva;%20tt-target-idc=useast1a;%20passport_csrf_token=8d617
 video_id=7348952636785167621 #Aweme (Video ID)
 install_id=7389856192924976902 #Install ID
 device_id=7389854904419223045 #Device ID
-response=requests.get(f'http://104.248.228.75:8080/like?install_id={install_id}&device_id={device_id}&awid={video_id}&cook={cookies}').text
+response=requests.get(f'http://104.248.228.75:8080/like?install_id={install_id}&device_id={device_id}&awid={video_id}&cookies={cookies}').text
 print(response)
